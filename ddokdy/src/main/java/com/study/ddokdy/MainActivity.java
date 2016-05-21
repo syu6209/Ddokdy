@@ -30,7 +30,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 
 	private void init() {
 		ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
-		ZMethod.toast(this, "kkjasdfasdfsdfkjkjk");
+		ZMethod.toast(this, "kkjasdfasdfsdㅁㄴㅇfkjkjk");
 	}
 	private void holdViews() {
 		
