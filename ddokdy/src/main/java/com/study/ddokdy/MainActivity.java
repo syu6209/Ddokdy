@@ -9,6 +9,8 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import prv.zozi.utils.Config;
 import prv.zozi.utils.ZMethod;
 
@@ -28,7 +30,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 
 	private void init() {
 		ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
-		
+		Toast.makeText(getApplicationContext(),"asdasd",Toast.LENGTH_SHORT).show();
 	}
 	private void holdViews() {
 		
