@@ -32,7 +32,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 		ZMethod.setStatusColor(this, Color.parseColor(Config.Color_orange));
 	}
 	private void holdViews() {
-		
+		int a=0;
 		viewpager = (ViewPager)findViewById(R.id.viewpager);
 	}
 
